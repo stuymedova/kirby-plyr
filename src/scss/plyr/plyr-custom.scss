@@ -1,0 +1,61 @@
+:root {
+  --plyr-color-main: #ffffff;
+  --plyr-video-controls-background: transparent;
+  --plyr-tab-focus-color: transparent;
+  --plyr-control-icon-size: 1rem;
+  --plyr-progress-loading-size: 0;
+  --plyr-video-control-background-hover: transparent;
+  --plyr-video-progress-buffered-background: #ffffff;
+  --plyr-range-thumb-height: 10px;
+  --plyr-range-thumb-shadow: transparent;
+  --plyr-range-track-height: 1px;
+  --plyr-video-range-thumb-active-shadow-color: transparent;
+}
+
+#player {
+  width: 100%;
+  height: auto;
+}
+
+/* plyr controls: get rid of excess space after the mute button */
+.plyr__volume {
+  min-width: 0;
+  width: auto;
+}
+
+/* plyr controls: padding & margin */
+.plyr--video .plyr__controls {
+  padding: .8rem 1.2rem;
+}
+.plyr__control:first-child {
+  padding-left: 0;
+}
+.plyr__control:last-child {
+  padding-right: 0;
+}
+.plyr__controls .plyr__menu, .plyr__controls .plyr__progress, 
+.plyr__controls .plyr__time, .plyr__controls .plyr__volume, 
+.plyr__controls > .plyr__control {
+  margin-left: 10px;
+}
+.plyr__progress__container {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* plyr controls: transition */
+.plyr--video .plyr__controls {
+  transform: none !important;
+  -webkit-transform: none !important;
+  transition: opacity .2s ease-in-out;
+}
+
+/* plyr controls: progress bar cursor */
+.plyr__progress__container input {
+  cursor: pointer;
+}
+
+/* plyr thumbnail */
+.plyr__poster {
+  transition: none;
+}

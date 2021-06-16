@@ -1,0 +1,67 @@
+# Secret files
+# ------------
+.env
+
+# System files
+# ------------
+Icon
+.DS_Store
+*.log
+
+
+# Kirby files
+# ---------------
+/public/media/*
+!/public/media/index.html
+/public/assets/js/*
+!/public/assets/js/.gitkeep
+/public/assets/css/*
+!/public/assets/css/.gitkeep
+# /kirby
+/vendor
+# /content
+
+# Composer-managed plugins
+# ------------------------
+/site/plugins/*
+# !/site/plugins/…
+
+# Lock files
+# ---------------
+composer.lock
+
+# Editors
+# ---------------
+.editorconfig
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
+
+
+# Node.js files
+# ---------------
+/node_modules
+
+# Lock files
+# ---------------
+package-lock.json

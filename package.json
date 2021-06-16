@@ -1,0 +1,38 @@
+{
+  "name": "kirby-rollup",
+  "version": "1.0.0",
+  "description": "kirby-rollup",
+  "scripts": {
+    "watch": "rollup -c -w",
+    "build": "NODE_ENV=production rollup -c",
+    "lint": "prettier --check \"src/**/*.js\" && eslint --ignore-path .gitignore \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "author": "Sofya Tuymedova",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "fast-glob": "^3.2.5",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-custom-media": "^8.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "prettier": "^2.3.1",
+    "rollup": "^2.47.0",
+    "rollup-plugin-scss": "^2.6.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "plyr": "^3.6.8"
+  }
+}

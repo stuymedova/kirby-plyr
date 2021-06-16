@@ -1,0 +1,5 @@
+title: Home Page
+fields:
+  embed:
+    label: Embed
+    type: embed
