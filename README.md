@@ -1,5 +1,27 @@
 # Kirby Plyr
 
+## Overview
+
+```
+.
+├── site
+│   ├── blueprints
+│   │   └── pages
+│   │       └── home.yml
+│   ├── plugins
+│   │   └── embed
+│   └── templates
+│       └── home.php
+├── src
+│   ├── js
+│   │   └── main.js
+│   └── scss
+│       ├── main.scss
+│       └── plyr
+│           └── plyr-custom.scss
+└── rollup.config.js
+```
+
 ## Prerequisites
 
 - [PHP](https://www.php.net) and [Composer](https://getcomposer.org)
