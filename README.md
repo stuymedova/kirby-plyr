@@ -2,23 +2,19 @@
 
 ## Prerequisites
 
-- [PHP](https://www.php.net)
-- [Composer](https://getcomposer.org)
+- [PHP](https://www.php.net) and [Composer](https://getcomposer.org)
 - [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 
 ## Setup
 
-Composer:
+Run in terminal:
 ```shell
-
 composer install
-valet link # for valet users
-```
-Node.js:
-```
+
 npm install
-npm run watch
-npm run build
+npm run watch/build
+
+valet link # for valet users, otherwise an alternative
 ```
 
 ## Result
