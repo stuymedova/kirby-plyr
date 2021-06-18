@@ -24,7 +24,7 @@ Icon
 # Composer-managed plugins
 # ------------------------
 /site/plugins/*
-# !/site/plugins/…
+!/site/plugins/embed
 
 # Lock files
 # ---------------
