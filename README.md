@@ -1,5 +1,7 @@
 # Kirby Plyr
 
+Kirby CMS + [Plyr](https://github.com/sampotts/plyr) video player (HTML5/YouTube/Vimeo)
+
 ## Overview
 
 ```
