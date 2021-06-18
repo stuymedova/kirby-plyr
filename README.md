@@ -34,13 +34,13 @@ Kirby CMS + [Plyr](https://github.com/sampotts/plyr) video player (HTML5/YouTube
 1. Run in terminal:
 ```shell
 composer install
+valet link # for valet users, otherwise an alternative
 
 npm install
-npm run watch/build
-
-valet link # for valet users, otherwise an alternative
+npm run watch # or npm run build
 ```
-2. Go to Panel `{url}/panel/pages/home` and enter video URL
+2. Go to `{url}/panel` and create a new Panel user
+3. Then go to `{url}/panel/pages/home`, enter video URL and hit "Save"
 
 ## Result
 
