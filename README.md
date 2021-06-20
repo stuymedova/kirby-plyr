@@ -1,6 +1,6 @@
 # Kirby Plyr
 
-Kirby CMS + [Plyr](https://github.com/sampotts/plyr) video player (HTML5/YouTube/Vimeo). Uses [kirby-embed](https://github.com/sylvainjule/kirby-embed) plugin.
+Kirby CMS + [Plyr](https://github.com/sampotts/plyr) video player (HTML5/YouTube/Vimeo). Uses the [kirby-embed](https://github.com/sylvainjule/kirby-embed) plugin.
 
 ## Overview
 
